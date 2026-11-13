@@ -1,0 +1,13 @@
+/* 브라우저 기본 여백 제거 및 스크롤 방지 */
+body {
+  margin: 0;
+  padding: 0;
+  overflow: hidden; 
+  background-color: #50b450; /* 게임 로딩 전 화면 색상 */
+  touch-action: none; /* 스마트폰 터치 시 화면이 밀리는 현상 방지 */
+}
+
+/* p5.js가 생성하는 캔버스를 블록 요소로 만들어 꽉 채움 */
+canvas {
+  display: block;
+}
